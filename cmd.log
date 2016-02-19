@@ -15,3 +15,30 @@ bower install bootstrap --save
 bower install angular angular-route --save
 npm install express --save
 doskey /history >> cmd.log
+git
+cd ..
+npm init
+mkdir app
+touch .bowerrc
+cd app
+mkdir public
+cd public
+mkdir lib
+cd ../..
+bower init
+mkdir gitignore
+bower uninstall bootstrap
+bower install bootstrap
+bower install angular angular-route --save
+doskey /history>>cmd.log
+bower install bootstrap --save
+npm install express --save
+git init
+git remote add origin https://github.com/leverli/netshop.git
+git add .
+git commit -m"��ʼ��"
+git config --global user.email "leverli@163.com"
+git config --global user.name "leverli"
+git commit -m"��ʼ��"
+git push -u origin master
+doskey /history >> cmd.log
