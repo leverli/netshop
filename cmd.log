@@ -1,0 +1,17 @@
+git
+cd ..
+ll
+ls
+npm init
+mkdir app
+touch .bowerrc
+cd app
+mkdir public
+cd public
+mkdir lib
+cd ../..
+bower init
+bower install bootstrap --save
+bower install angular angular-route --save
+npm install express --save
+doskey /history >> cmd.log

@@ -1,0 +1,26 @@
+{
+  "name": "netshop",
+  "version": "1.0.0",
+  "description": "网上商城",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/leverli/netshop"
+  },
+  "keywords": [
+    "shop",
+    "node",
+    "express",
+    "angular",
+    "bootstrap",
+    "bower"
+  ],
+  "author": "leverli",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

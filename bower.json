@@ -1,0 +1,33 @@
+{
+  "name": "netshop",
+  "description": "网上商城",
+  "main": "index.js",
+  "authors": [
+    "leverli"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "shop",
+    "node",
+    "express",
+    "angular",
+    "bootstrap",
+    "bower"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bootstrap": "^3.3.6"
+  }
+}
